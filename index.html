@@ -1,1 +1,123 @@
-test
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" initial-scale="1.0" http-equiv="content-type" />
+<title>
+= FORMULAIRE =
+</title>
+</head>
+<body>
+    <p>FORMULAIRE A REMPLIR</p>
+ 
+    <form>
+        
+        <!-- Coordonnees NP -->
+        <label for="prenom">Pr&eacute;nom* :</label>
+        <input type="text" id="Pr&eacute;nom" name="Pr&eacute;nom" size="30"><br><br>
+        
+        <label for="nom">Nom* :</label>
+        <input type="text" id="nom" name="Nom" size="30"><br><br>
+        
+        <!-- Civilit&eacute; -->
+        <label>Civilit&eacute; :</label><br><br>
+        <input type="radio" name="Femme" value="femme">
+	    <label>Femme</label><br><br>
+        <input type="radio" name="Homme" value="homme">
+	    <label>Homme</label><br><br>
+        <input type="radio" name="iel" value="iel">
+	    <label>Iel</label><br><br>
+        
+        <!-- Adresse -->
+
+        <label for="numero">Num&eacute;ro* :</label>
+        <input type="text" id="numero" name="numero" required
+        length="5" size="5" 
+        pattern="[0-9]{5}" title="numero">
+
+        <select name="bis">
+            <option value="bis">Bis</option>
+            <option value="ter">Ter</option>
+         </select><br><br>
+
+        <select name="complement">
+            <option value="allee">All&eacute;e</option>
+            <option value="avenue">Avenue</option>
+            <option value="boulevard" selected="selected">Boulevard</option>
+            <option value="impasse">Impasse</option>
+            <option value="rue">Rue</option>
+            <option value="square">Square</option>
+         </select>
+        
+        <input type="text" id="rue" name="rue" size="25"><br><br>
+        <label for="complement">Compl&eacute;ment :</label>
+        <input type="text" id="complement" name="complement" size="25"><br><br>
+        
+        <!-- CP Ville -->
+        <label for="codepostal">Code Postal* :</label>
+        <input type="text" id="codepostal" name="codepostal" required
+        length="5" size="5" 
+        pattern="[0-9]{5}" title="codepostal"><br><br>
+        
+        <label for="ville">Ville* :</label>
+        <input type="text" id="ville" name="Ville" size="25"><br><br>
+
+        <!-- Email -->
+        <label for="email">Email* :</label>
+        <input type="email" id="email" name="email" size="30" 
+        pattern="[0-9-A-Z-az-@-._]{30}" title="email"><br><br>
+        
+        <!-- Metier -->
+        <label for="metier">M&eacute;tier exerc&eacute; :</label>
+        <input type="text" id="metier" name="metier" size="25"><br><br>
+
+        <!-- Nationalite -->
+        <label for="nationalite">Nationalit&eacute; :</label>
+        <select name="nom" size="1">
+            <option>France</option>
+            <option>Ghibli</option>
+            <option>Lune</option>
+            <option>Mars</option>
+            <option>Venus</option>
+        </select><br><br>
+
+        <!-- Nationalite -->
+        <label for="pays">Nationalit&eacute; :</label>
+        <input id="pays" name="pays" type="text" required>
+        <br><br>
+        
+        <!-- Nationalite -->
+        <label for="pays">Nationalit&eacute; :</label><br><br>
+        <input type="radio" name="france" value="Fran&ccedil;ais(e)" checked="checked" />
+        <label for="Fran&ccedil;ais(e)">Fran&ccedil;ais(e)</label>
+        <input type="radio" name="autre" value="autre" />
+        <label for="Autre">Autre</label>
+        <input type="text" name="autre" pattern="[AZaz]{15}" title="nationalite" /><br><br>
+
+        <!-- Date Naissance -->
+        <label for="birthday">Date de naissance :</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        <!-- CP Ville -->
+        <label for="numsecu">Num&eacute;ro de s&eacute;curit&eacute; sociale :</label>
+        <input type="text" id="numsecu" name="numsecu" 
+        pattern="[0-9]{15}" title="identifiantsecu"><br><br>
+
+        <label for="numpasseport">Num&eacute;ro du passeport :</label>
+        <input type="text" id="numpasseport" name="numpasseport" required
+        length="9" size="9" 
+        pattern="[09AZaz]{9}" title="9caracteres"><br><br>
+
+        <!-- Documents -->
+        <label for="passeport">Date de d&eacute;livrance passeport :</label>
+        <input type="date" id="passeport" name="passeport"><br><br>
+
+        <label for="validite">Date de validit&eacute; :</label>
+        <input type="date" id="validite" name="validite"><br><br>
+
+        <!-- Bouton validation -->
+        <button>Valider</button>
+
+      </form>
+</body>
+</html>
