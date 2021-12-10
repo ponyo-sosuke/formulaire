@@ -14,6 +14,12 @@ L'Agence : DE LA TERRE A LA LUNE<br>
 Propriétaire : Jule Verne<br>
 Ville : Amiens
 
+Agence de voyage universel et même interstellaire dès 2022 !!!<br>
+Prochains voyages : <br>
+- Go to the Moon
+- Fire to Mars
+- Exploration on Venus<br>
+
 Budget création & développement : abyssal !
 
 <br><br>
