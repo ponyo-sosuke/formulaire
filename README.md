@@ -10,8 +10,8 @@ Réserve vite ta navette family !
 <br><br>
 ## Clients
 
-L'Agence : DE LA TERRE A LA LUNE
-Propriétaire : Jule Verne
+L'Agence : DE LA TERRE A LA LUNE<br>
+Propriétaire : Jule Verne<br>
 Ville : Amiens
 
 Budget création & développement : abyssal !
@@ -20,7 +20,7 @@ Budget création & développement : abyssal !
 ## CHOIX DE L'AGENCE DEV&CREA
 
 Ponyo-Sosuke Github agency, alias Doe Dupont Croquet
-(un peu zinzin mais assumme totalement !)
+(un peu zinzin mais assumme totalement !)<br>
 Projet 100% Région Hauts-de-France et même mieux "PICARDIE"
 
 <br><br>
